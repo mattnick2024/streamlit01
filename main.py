@@ -47,7 +47,7 @@ with st.sidebar:
     response = requests.get(f"""https://api.themoviedb.org/3/find/{tmdbId}?api_key={API_key}""")
     url = get_poster_url(tmdbId)
     st.image(url)
-    st.success('Done!')
+#    st.success('Done!')
 
     
     #st.write(url)
